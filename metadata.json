@@ -1,0 +1,6 @@
+{
+  "name": "SCALE – Interior Design & Decoration",
+  "description": "Premium, architectural interior design and decoration portfolio website showcasing luxury residential and commercial spaces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

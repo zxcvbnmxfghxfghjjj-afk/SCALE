@@ -174,7 +174,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenQuote }) => {
           </div>
 
           <div className="flex gap-6 text-[9px] uppercase tracking-widest text-[#C6A15B]">
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-[#F7F4EC] transition-colors" aria-label="Instagram">
+            <a href="https://www.instagram.com/scal_edecor?igsi=eDUwMDB1eWZienpy" target="_blank" rel="noreferrer" className="hover:text-[#F7F4EC] transition-colors" aria-label="Instagram">
               Instagram
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-[#F7F4EC] transition-colors" aria-label="LinkedIn">

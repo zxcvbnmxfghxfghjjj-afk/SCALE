@@ -103,12 +103,12 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Right Action Buttons */}
           <div className="hidden lg:flex items-center space-x-6">
             <a
-              href="tel:+97143829100"
+              href="tel:+971563131834"
               className="flex items-center text-[11px] tracking-[0.12em] text-[#626B3A] hover:text-[#3F4728] transition-colors"
               title="Call studio"
             >
               <Phone className="w-3 h-3 mr-1.5 text-[#C6A15B]" />
-              <span className="font-normal">+971 4 382 9100</span>
+              <span className="font-normal">+971 56 313 1834</span>
             </a>
 
             <button
@@ -201,7 +201,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
               <div className="flex items-center justify-center space-x-6 text-xs text-[#626B3A]">
                 <a
-                  href="https://wa.me/971563131834"
+                  href="https://wa.me/+97143829100"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center hover:text-[#3F4728]"
@@ -212,7 +212,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 <span className="text-[#E7E0D0]">|</span>
                 <a href="tel:+97143829100" className="flex items-center hover:text-[#3F4728]">
                   <Phone className="w-4 h-4 mr-1 text-[#C6A15B]" />
-                  +971 4 382 9100
+                  +97143829100
                 </a>
               </div>
             </div>

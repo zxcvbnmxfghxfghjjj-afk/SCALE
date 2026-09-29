@@ -111,13 +111,13 @@ export const softwarePartners = [
 ];
 
 export const contactInfo = {
-  phone: '+971 4 382 9100',
-  whatsapp: '+971 56 313 1834',
-  whatsappUrl: 'https://wa.me/971563131834?text=Hello%20SCALE%20Team,%20I%20would%20like%20to%20inquire%20about%20an%20interior%20design%20project.',
-  email: 'info@scale-interiors.com',
-  address: 'Level 14, Design Tower, Al Abraj Street, Business Bay, Dubai, UAE',
-  hours: 'Monday – Saturday: 9:00 AM – 7:00 PM',
-  instagram: 'https://instagram.com',
+  phone: '+97143829100',
+  whatsapp: '+97143829100',
+  whatsappUrl: 'https://wa.me/97143829100',
+  email: 'scaledecor97@gmail.com',
+  address: 'Dubai',
+  hours: 'Every day: 10:00 AM – 8:00 PM',
+  instagram: 'https://www.instagram.com/scal_edecor?igsi=eDUwMDB1eWZienpy',
   linkedin: 'https://linkedin.com',
   pinterest: 'https://pinterest.com'
 };

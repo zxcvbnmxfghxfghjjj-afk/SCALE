@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Logo } from './Logo';
 import { Menu, X, Phone, MessageSquare, ArrowUpRight } from 'lucide-react';
-
+import { contactInfo } from '../../data/teamData';
 interface NavbarProps {
   currentPage: string;
   onNavigate: (page: string, projectSlug?: string) => void;
@@ -103,12 +103,12 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Right Action Buttons */}
           <div className="hidden lg:flex items-center space-x-6">
             <a
-              href="tel:+971563131834"
+              href={`tel:${contactInfo.phone}`}
               className="flex items-center text-[11px] tracking-[0.12em] text-[#626B3A] hover:text-[#3F4728] transition-colors"
               title="Call studio"
             >
               <Phone className="w-3 h-3 mr-1.5 text-[#C6A15B]" />
-              <span className="font-normal">+971 56 313 1834</span>
+              <span className="font-normal">+97143829100</span>
             </a>
 
             <button
@@ -201,7 +201,8 @@ export const Navbar: React.FC<NavbarProps> = ({
 
               <div className="flex items-center justify-center space-x-6 text-xs text-[#626B3A]">
                 <a
-                  href="https://wa.me/+97143829100"
+                  href={contactInfo.whatsappUrl}
+                  // href="https://wa.me/+97143829100"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center hover:text-[#3F4728]"
@@ -210,7 +211,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   WhatsApp
                 </a>
                 <span className="text-[#E7E0D0]">|</span>
-                <a href="tel:+97143829100" className="flex items-center hover:text-[#3F4728]">
+                <a href={`tel:${contactInfo.phone}`} className="flex items-center hover:text-[#3F4728]">
                   <Phone className="w-4 h-4 mr-1 text-[#C6A15B]" />
                   +97143829100
                 </a>

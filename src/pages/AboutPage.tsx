@@ -1,5 +1,5 @@
 import React from 'react';
-import { teamData, softwarePartners } from '../data/teamData';
+import {softwarePartners } from '../data/teamData';
 import { statsData } from '../data/servicesData';
 import { ArrowRight, CheckCircle2, Award, ShieldCheck, Sparkles, Layers } from 'lucide-react';
 
@@ -130,7 +130,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenQuote })
       </section>
 
       {/* 4. THE LEADERSHIP TEAM */}
-      <section className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-12 py-20 lg:py-28">
+      {/* <section className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-12 py-20 lg:py-28">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <div className="text-[10px] uppercase tracking-[0.3em] font-bold text-[#C6A15B] mb-2">
             Leadership & Craft
@@ -176,7 +176,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenQuote })
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* 5. TECHNICAL STANDARDS & SOFTWARE */}
       <section className="bg-[#20221A] text-[#F7F4EC] py-16 border-y border-[#C6A15B]/20">
